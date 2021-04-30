@@ -1,0 +1,40 @@
+.container {
+    /* border-style: dashed; */
+    height: 150vh;
+    }
+    
+    .image{
+      /* border-style: dashed; */
+      height: 10vh;
+      width: 20vh;
+      
+      /* margin-left: 625px; */
+    }
+    .images{
+      width: 250px;
+      height: 250px;
+      /* border-style: dashed; */
+    
+    }
+    
+    
+    .imageContainer{
+      /* border-style: dashed; */
+      display: flex;
+      justify-content: center;
+      height: 10vh;
+    }
+    
+    
+    
+    .logo{
+      font-family: "Megrim";
+      font-size: 50px; 
+      height: 80px;
+      /* border-style: dashed; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    

@@ -1,0 +1,87 @@
+.projectDiv{
+    display: flex;
+    /* justify-content: Center; */
+    align-items: Right;
+    height: 165vh;
+    flex-direction: column;
+    /* border-style: dashed; */
+  }
+.projectDiv1{
+    /* border-style: dashed; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100px */
+    /* width:200px */
+  }
+
+.first-project{
+    /* border-style: dashed; */
+    height: 40px;
+    width: 330px;
+    /* margin-top: 50px; */
+    color: #333;
+    font-size: 30px;
+    font-family: "Libre Franklin";
+    font-weight: normal;
+    /* text-decoration: underline; */
+  }  
+.projectDiv2{
+    width: 310px;
+    height: 10px;
+    bottom: 20px;
+    /* border-style: dashed; */
+    background-color: #B1C1F9;
+    margin: -10px 1px;
+}  
+.projectDiv3{
+    /* border-style: dashed; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* height:100px; */
+    /* width:200px; */
+}
+.second-project{
+    /* border-style: dashed; */
+    height: 40px;
+    width: 390px;
+    /* margin-top: 50px; */
+    color: #333;
+    font-size: 30px;
+    font-family: "Libre Franklin";
+    font-weight: normal;
+    /* text-decoration: underline */
+}
+.projectDiv4{
+    width: 380px;
+    height: 10px;
+    bottom: 20px;
+    /* border-style: dashed; */
+    background-color: #B1C1F9;
+    margin: -10px 1px;
+}
+.projectDiv5{
+    /* border-style: dashed; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* height:20px', */
+    /* width:200px */
+  }
+
+
+  @media (max-width: 700px) {  
+      .aboutDiv{
+      width: 100%;
+    }
+    .first-project{
+        font-size: 25px;
+    }
+    .second-project{
+        font-size: 25px;
+    }
+
+    }  
