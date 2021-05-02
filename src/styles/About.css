@@ -14,9 +14,9 @@
   }
   
 .first-about{
-    border-style: dashed;
-    height: 50px;
-    width: 180px;
+    /* border-style: dashed; */
+    /* height: 50px; */
+    /* width: 180px; */
     color: #333;
     font-family: "Libre Franklin";
     opacity: 0.8;
@@ -69,9 +69,9 @@
     /* border-style: dashed; */
     /* height: 50px; */
     /* width: 490px; */
-    color: #333;
+    /* color: #333; */
     font-family: "Libre Franklin";
-    opacity: 0.8,
+    opacity: 0.8;
   }
   
   
@@ -85,7 +85,7 @@
   
   .fourth-about{
     /* height: 50px; */
-    width: 310px;
+    /* width: 310px; */
     color: #333;
     font-family: "Libre Franklin";
     font-size: 30px;
@@ -109,7 +109,8 @@
       font-size: 30px; 
     }
   .aboutDiv{
-    width: 100%;
+    /* width: 100%; */
+    /* border-style: dashed; */
   }
   h1{
     display: flex;
@@ -128,7 +129,14 @@
   .fourth-about {
     font-size: 25px;
   }
-  
+  .aboutDiv2{
+    /* border-style: dashed; */
+    height: fit-content;
+    /* width: fit-content; */
+    /* display: flex; */
+    /* justify-content: center; */
+    
+  }
   }
   
   

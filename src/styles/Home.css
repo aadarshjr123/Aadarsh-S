@@ -1,6 +1,6 @@
 .container {
     /* border-style: dashed; */
-    height: 150vh;
+    /* height: 150vh; */
     }
     
     .image{
@@ -13,7 +13,7 @@
     .images{
       width: 250px;
       height: 250px;
-      /* border-style: dashed; */
+      border-style: dashed;
     
     }
     
@@ -35,6 +35,15 @@
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    @media (max-width: 700px) { 
+      .container {
+        /* border-style: dashed; */
+        /* height:  */
+        overflow: auto;
+        /* position:absolute */
+        }
     }
     
     
