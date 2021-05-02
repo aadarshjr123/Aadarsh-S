@@ -58,15 +58,15 @@
       padding: 0px 10px;
       justify-content:space-between;
       
+      
     }
-    .nav-options {
-        
+    .nav-options {  
       display: flex;
       width: 95%;
-      height: 950px;
+      height: 100%;
       position: absolute;
       top: 150px;
-      left: 10px;
+      left: 10px !important;
       opacity: 0;
       transition: all 0.5s ease;
       flex-direction: column;
