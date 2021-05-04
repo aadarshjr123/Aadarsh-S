@@ -20,7 +20,7 @@ const responsive = {
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2
+    items: 1
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -62,8 +62,8 @@ return(
                 <img
                       src={email}
                       alt="Picture of the author"
-                      width={30}
-                      height={30}
+                      width={20}
+                      height={20}
                       quality
                       loading="lazy"
                     />
@@ -71,8 +71,8 @@ return(
                     <img
                       src={github}
                       alt="Picture of the author"
-                      width={30}
-                      height={30}
+                      width={20}
+                      height={20}
                       quality
                       loading="lazy"
                     />

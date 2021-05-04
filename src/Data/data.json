@@ -10,7 +10,7 @@
                 "subtitle": "⚡ More of an visual person",
                 "buttonText": "Get In Touch"
               },
-              "html": "<p> Or enjoy the changes.</p>"
+              "html": " Or enjoy the changes."
             }
           }
         ]
@@ -45,7 +45,7 @@
                   "Figma"
                 ]
               },
-              "html": "<p>Hey there! I'm a Full stack Developer,  I have been developing websites and mobile applications. For past 6 months, I have been working as an FullStack developer intern at <a href=\"https://www.quadrasystems.net/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Quadra systems</a>.</p>\n<p> Most my experience lies in full stack development and UI designing.\n<p>You will find high level summaries of my job duties/education history in my <a href=\"http://localhost:8000/resume.pdf\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Resume</a>. If you want to see some of the projects that I work on in my spare time, see my GitHub profile: <a href=\"https://github.com/aadarshjr123\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Github</a> and one of my most interesting projects of many, <a href=\"https://internspot.tech/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">internspot.tech</a>.</p>"
+              "html": "Hey there! I'm a Full stack Developer,  I have been developing websites and mobile applications. For past 6 months, I have been working as an FullStack developer intern at <a href=\"https://www.quadrasystems.net/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Quadra systems</a>.\n Most my experience lies in full stack development and UI designing.\nYou will find high level summaries of my job duties/education history in my <a href=\"http://localhost:8000/resume.pdf\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Resume</a>. If you want to see some of the projects that I work on in my spare time, see my GitHub profile: <a href=\"https://github.com/aadarshjr123\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Github</a> and one of my most interesting projects of many, <a href=\"https://internspot.tech/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">internspot.tech</a>."
             }
           }
         ]
@@ -80,7 +80,7 @@
                 "github": "",
                 "external": "https://internspot.tech/",
               
-              "html": "<p>An non-profit community for getting paid internships specifically for software developers, all across india.</p>"
+              "html": "An non-profit community for getting paid internships specifically for software developers, all across india."
             
           }
         ]
@@ -92,49 +92,49 @@
             "tech": ["React-Native", "Firebase", "Android Studio"],
             "github": "https://github.com/aadarshjr123/Tracking-App",
             "external": "",
-            "html": "<p>Its basically an mobile application which is created using react native and firebase, where we can sign up and keep track of the locations we want to go as well as save it for future use.</p>"
+            "html": "Its basically an mobile application which is created using react native and firebase, where we can sign up and keep track of the locations we want to go as well as save it for future use."
           },
           {
             "title": "Employee Manager DB",
             "tech": ["Python", "Flask", "SQLite"],
             "github": "https://github.com/aadarshjr123/Flask-application",
             "external": "",
-            "html": "<p>In this simple web application, i have used python-flask, sqlite. Where i performed CRUD operations for various functionalities.</p>"
+            "html": "In this simple web application, i have used python-flask, sqlite. Where i performed CRUD operations for various functionalities."
           },
           {
             "title": "Blog app",
             "tech": ["React-native", "Ngrok", "Android Studio"],
             "github": "https://github.com/aadarshjr123/Blog_App",
             "external": "",
-            "html": "<p>This application is basically done using react native as well as ngrok as an server, where we can push data frontend to backend, which will be stored in an json formatted files, and can be retrived as well.</p>"
+            "html": "This application is basically done using react native as well as ngrok as an server, where we can push data frontend to backend, which will be stored in an json formatted files, and can be retrived as well."
           },
           {
             "title": "Restaurants Review",
             "tech": ["React-native", "Android Studio"],
             "github": "https://github.com/aadarshjr123/Restaurant-App",
             "external": "",
-            "html": "<p>In this application with the help of yelp api, we can view as well as write comments on our favourite restaurants.</p>"
+            "html": "In this application with the help of yelp api, we can view as well as write comments on our favourite restaurants."
           },
           {
             "title": "Social-Media Api",
             "tech": ["Reactjs", "Firebase", "GCP"],
             "github": "https://github.com/aadarshjr123/Social-Api",
             "external": "https://www.freecodecamp.org/news/react-firebase-social-media-app-course/",
-            "html": "<p>This is an model api for social media platform , which was implied in freecodecamp, where all the features like CRUD , security flows are brought together.</p>"
+            "html": "This is an model api for social media platform , which was implied in freecodecamp, where all the features like CRUD , security flows are brought together."
           },
           {
             "title": "Web scraping on Bigbasket",
             "tech": ["Python", "Seautifulsoup", "Selenium"],
             "github": "https://github.com/aadarshjr123/Selenium-Automation",
             "external": "",
-            "html": "<p>Its an python script for scraping an certains data from an website with the location and stored it in an excel form.</p>"
+            "html": "Its an python script for scraping an certains data from an website with the location and stored it in an excel form."
           },
           {
             "title": "Whatsapp automation",
             "tech": ["Python", "Selenium"],
             "github": "https://github.com/aadarshjr123/Automation-on-whatsapp",
             "external": "",
-            "html": "<p>This is an python script file, where we can send automated message as well as documents to specific person.</p>"
+            "html": "This is an python script file, where we can send automated message as well as documents to specific person."
           }
         ]
       }

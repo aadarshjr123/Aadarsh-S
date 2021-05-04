@@ -18,14 +18,23 @@
 
 .first-project{
     /* border-style: dashed; */
-    height: 40px;
-    width: 330px;
+    /* height: 40px; */
+    /* width: 330px; */
     /* margin-top: 50px; */
     color: #333;
     font-size: 30px;
     font-family: "Libre Franklin";
-    font-weight: normal;
+    /* font-weight: normal; */
     /* text-decoration: underline; */
+    display: inline;
+  /* color: #333; */
+  text-shadow: 0 1px darken(#333, 10%);
+  transition: box-shadow ease 250ms, color ease 250ms;
+  cursor: pointer;
+  font-family: "Libre Franklin";
+  font-weight: normal;
+  text-decoration: none;
+  box-shadow: 0 -10px 0 #B1C1F9 inset;
   }  
 .projectDiv2{
     width: 310px;
@@ -46,14 +55,23 @@
 }
 .second-project{
     /* border-style: dashed; */
-    height: 40px;
-    width: 390px;
+    /* height: 40px; */
+    /* width: 390px; */
     /* margin-top: 50px; */
     color: #333;
     font-size: 30px;
     font-family: "Libre Franklin";
-    font-weight: normal;
+    /* font-weight: normal; */
     /* text-decoration: underline */
+    display: inline;
+  /* color: #333; */
+  text-shadow: 0 1px darken(#333, 10%);
+  transition: box-shadow ease 250ms, color ease 250ms;
+  cursor: pointer;
+  font-family: "Libre Franklin";
+  font-weight: normal;
+  text-decoration: none;
+  box-shadow: 0 -10px 0 #B1C1F9 inset;
 }
 .projectDiv4{
     width: 380px;

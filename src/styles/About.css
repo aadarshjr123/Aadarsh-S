@@ -34,27 +34,123 @@
     /* border-style: dashed; */
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center
+    flex-direction: row;
+    align-items: center;
   }
-  
-.second-about{
-    /* border-style: dashed; */
-    /* height: 80px; */
-    /* width: 360px; */
-    color: #333;
+  /* body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+} */
+
+.emoji {
+    font-size: calc(1px + 2vw);
+    min-width: 1em;
+    margin: 0.3em 0.4em;
     text-align: center;
-    font-size: 70px;
-    font-family: "Libre Franklin";
+}
+
+.emoji::after {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+/* 
+.clock::after {
+    content: '🕛';
+    animation-name: clock;
+    animation-duration: 5s;
+} */
+/* 
+.mailbox::after {
+    content: '📪';
+    animation-name: mailbox;
+    animation-duration: 2.5s;
+} */
+
+
+.wave::after {
+    content: '✋';
+    --emoji: '👋';
+    animation-name: twoFrames;
+    animation-duration: 1s;
+}
+
+/* .inbox::after {
+    content: '📥';
+    --emoji: '📤';
+    animation-name: twoFrames;
+    animation-duration: 1s;
+} */
+
+@keyframes twoFrames {
+    50% {
+        content: var(--emoji);
+    }
+}
+
+@keyframes threeFrames {
+    33.333% {
+        content: var(--emoji-1);
+    }
+
+    66.666% {
+        content: var(--emoji-2);
+    }
+}
+
+/* @keyframes mailbox {
+    25% {
+        content: '📫';
+    }
+
+    50% {
+        content: '📬';
+    }
+
+    75% {
+        content: '📭';
+    }
+}
+ */
+
+
+
+  .second-about{
+    font-family: "Libre Franklin"; 
+    font-weight: lighter;
+    font-size: 30px;
+    padding-top: 15px;
+    opacity: 0.8;
+    color: #333;
+    /* border-style: dashed;     */
+    }  
+.second-about1{
+  font-size: 3rem;
+  text-align: center;
+  margin: 12px;
+  /* border-style: dashed; */
+  /* line-height: .25; */
+  display: inline;
+  color: #333;
+  text-shadow: 0 1px darken(#333, 10%);
+  transition: box-shadow ease 250ms, color ease 250ms;
+  cursor: pointer;
+  font-family: "Libre Franklin";
+  text-decoration: none;
+  box-shadow: 0 -20px 0 #B1C1F9 inset;
   }
   
 .aboutDiv4{
-    /* width: 240px; */
-    /* height: 20px; */
-    bottom: 20px;
-    /* border-style: dashed; */
+    width: 270px;
+    height: 20px;
+    /* bottom: 20px; */
+    border-style: dashed;
     background-color: #B1C1F9;
-    margin: -20px 100px;
+    margin: -20px 150px;
   }
   
 .aboutDiv5{
@@ -70,6 +166,8 @@
     /* height: 50px; */
     /* width: 490px; */
     /* color: #333; */
+    color: #333;
+    opacity: 0.8;
     font-family: "Libre Franklin";
     opacity: 0.8;
   }
@@ -104,7 +202,9 @@
   
   
   @media (max-width: 700px) {  
-  
+    .emoji {
+      font-size: calc(1px + 4vw);
+     }
   .logo{
       font-size: 30px; 
     }
@@ -117,25 +217,38 @@
     justify-content: center;  
     align-items: center;
   }
+  .Image{
+    /* border-style: dashed; */
+    /* height: fit-content; */
+    width: 80%;
+  }
   .first-about {
     font-size: 25px;  
   }
   .second-about {
+    /* border-style: dashed; */
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  .second-about1 {
     font-size: 40px;
+    box-shadow: 0 -13px 0 #B1C1F9 inset;
   }
   .third-about {
     font-size: 25px;
   }
   .fourth-about {
-    font-size: 25px;
+    font-size: 23px;
   }
   .aboutDiv2{
     /* border-style: dashed; */
-    height: fit-content;
+    height: 100%;
+    width: 80%;
     /* width: fit-content; */
-    /* display: flex; */
-    /* justify-content: center; */
-    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 10%;
   }
   }
   

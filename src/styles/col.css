@@ -52,6 +52,16 @@
 .second{
   font-size: 20px; 
 }
+.colDiv2{
+  /* border-style: dashed; */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 69%;
+  margin-top: 60px;
+  /* height:20px; */
+  width:20%
+}
   }
 
 

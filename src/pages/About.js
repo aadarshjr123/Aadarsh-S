@@ -11,15 +11,19 @@ const About = () => {
   return (
     <div className="aboutDiv">
       <div className="aboutDiv1">
-        <h1 className="first-about">Hi,there 👋</h1>
+        <h1 className="first-about">Hi,there <span class="emoji wave" role="img" aria-label="hand wave"></span></h1>
       </div>
       <div className="aboutDiv2">
-        <img src={me}  quality loading="lazy" />
+        <img src={me} className="Image" quality loading="lazy" />
       </div>
       <div className="aboutDiv3">
         <h1 className="second-about">
-          I’m Aadarsh
-          {/* <div className={styles.aboutDiv4} /> */}
+          I’m
+          {/* <div className="aboutDiv4" /> */}
+        </h1>
+        <h1 className="second-about1">
+          Aadarsh
+          {/* <div className="aboutDiv4" /> */}
         </h1>
       </div>
       <div className="aboutDiv5">
@@ -77,6 +81,7 @@ const About = () => {
           loading="lazy"
         />
       </div>
+      <div style={{ margin: "15px" }} />
     </div>
   );
 };

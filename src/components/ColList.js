@@ -70,8 +70,8 @@ return(
                     <img
                       src={email}
                       alt="Picture of the author"
-                      width={30}
-                      height={30}
+                      width={20}
+                      height={20}
                       quality
                       loading="lazy"
                     />
@@ -79,8 +79,8 @@ return(
                     <img
                       src={github}
                       alt="Picture of the author"
-                      width={30}
-                      height={30}
+                      width={20}
+                      height={20}
                       quality
                       loading="lazy"
                     />
