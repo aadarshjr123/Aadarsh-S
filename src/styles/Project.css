@@ -2,7 +2,7 @@
     display: flex;
     /* justify-content: Center; */
     align-items: Right;
-    height: 165vh;
+    /* height: 175vh; */
     flex-direction: column;
     /* border-style: dashed; */
   }

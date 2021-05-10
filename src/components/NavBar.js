@@ -8,6 +8,7 @@ import {
 import '../styles/Navbar.css';
 import { ReactComponent as MenuIcon } from '../assets/menu.svg';
 import { ReactComponent as CloseMenu } from "../assets/x.svg";
+import Social from './social.js';
   
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -26,7 +27,9 @@ const Navbar = () => {
           <li className="option" onClick={closeMobileMenu}>
             <a className="links" href="/contacts">Contacts</a>
           </li>
+          
         </ul>
+        
       </div>
       <div className="mobile-menu" onClick={handleClick}>
         {click ? (

@@ -2,11 +2,7 @@ import React, { useState } from "react";
 import ColList from "../components/ColList";
 import RowList from "../components/RowList";
 import "../styles/Project.css";
-import email from '../assets/email.png';
-import github from '../assets/github.png';
-import instagram from '../assets/instagram.png';
-import linkedin from '../assets/linkedin.png';
-import dribbble from '../assets/dribbble.png';
+import Social from "../components/social";
 
 const Projects = () => {
   return (
@@ -30,51 +26,9 @@ const Projects = () => {
       <div style={{ margin: "15px" }} />
       <div style={{ margin: "15px" }} />
       <div className="projectDiv5">
-      <img
-          src={dribbble}
-          alt="Picture of the author"
-          width={20}
-          height={20}
-          quality
-          loading="lazy"
-        />
-        <div style={{ margin: "15px" }} />
-        <img
-          src={email}
-          alt="Picture of the author"
-          width={20}
-          height={20}
-          quality
-          loading="lazy"
-        />
-        <div style={{ margin: "15px" }} />
-        <img
-          src={github}
-          alt="Picture of the author"
-          width={20}
-          height={20}
-          quality
-          loading="lazy"
-        />
-        <div style={{ margin: "15px" }} />
-        <img
-          src={instagram}
-          alt="Picture of the author"
-          width={20}
-          height={20}
-          quality
-          loading="lazy"
-        />
-        <div style={{ margin: "15px" }} />
-        <img
-          src={linkedin}
-          alt="Picture of the author"
-          width={20}
-          height={20}
-          quality
-          loading="lazy"
-        />
+      <Social/>
       </div>
+      <div style={{ margin: "15px" }} />
     </div>
   );
 };

@@ -2,8 +2,9 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import * as data from '../Data/data.json';
 import '../styles/col.css';
-import email from '../assets/email.png';
+import foreign from '../assets/foreign.png';
 import github from '../assets/github.png';
+// import internsot from "../assets/internspot.png"
 
 
 let Details = data.default.data.featured.edges;
@@ -41,8 +42,8 @@ return(
 <Carousel responsive={responsive}>
 {
           Details.map((results,index) => {
-            const {title,html} = results;
-            console.log('hai');
+            // const {title,html} = results;
+            console.log(results);
             return (
               <div
                 className="colDiv"
@@ -51,12 +52,12 @@ return(
                   className="colDiv1"
                 >
                   <h1
-                    className="first"
+                    className="first-col"
                   >
                     {results.title}
                   </h1>
                   <h1
-                    className="second"
+                    className="second-col"
                   >
                    {results.html}
                   </h1>
@@ -67,15 +68,18 @@ return(
                     className="colDiv2"
                   >
                     <div style={{ margin: "15px" }} />
+                    <a href={results.external}>
                     <img
-                      src={email}
+                      src={foreign}
                       alt="Picture of the author"
                       width={20}
                       height={20}
                       quality
                       loading="lazy"
                     />
+                    </a>
                     <div style={{ margin: "15px" }} />
+                    <a href={results.github}>
                     <img
                       src={github}
                       alt="Picture of the author"
@@ -84,9 +88,13 @@ return(
                       quality
                       loading="lazy"
                     />
+                    </a>
                   </div>
+                  <h6 className="tech">{results.tech}</h6>
+                  </div>
+                  {/* </img> */}
                 </div>
-              </div>
+              
             );
 
           })

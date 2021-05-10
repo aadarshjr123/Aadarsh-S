@@ -5,13 +5,18 @@
 }
 .colDiv1{
   /* border-style: dashed; */
-  height: 350px;
+  height: 340px;
   width: 700px;
-  background-color: #C4C4C4;
+  background-color: #B1C1F9;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-content: center; */
   margin: 50px;
   padding-top: 1.5%;
 }
-.first{
+
+.first-col{
     /* border-style: dashed; */
     width: 55%;
     font-size: 30px;
@@ -19,13 +24,14 @@
     font-family: "Libre Franklin";
     font-weight: bold;
     margin-left: 7%;
+    
 }
-.second{
+.second-col{
     /* border-style: dashed; */
     width: 85%;
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Libre Franklin";
-    color: #505050;
+    color: #333;
     font-weight: normal;
     margin-left: 7%;
     text-align: justify
@@ -41,26 +47,58 @@
     width:20%
 }
 
+.tech{
+  /* border-style: dashed; */
+  font-size: 15px;
+  margin: 50px;
+  font-weight: normal;
+  /* justify-content:right; */
+  /* align-content:space-between; */
+  /* align-items:center; */
+  color: #333;
+  text-align: end;
+  word-spacing: 45px;
+}
+
 @media (max-width: 700px) {  
   div.colDiv{
     width: 105%;
   }
-  .first{
+  .first-col{
       font-size: 22px;
       justify-content: left;
+      margin-top: 40px;
 }
-.second{
+.second-col{
   font-size: 20px; 
+}
+.colDiv1{
+  /* height: 300px; */
+  height: 350px;
+  width: 300px;
+  margin-left: 30px;
+  /* border-style: dashed; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: row; */
+  /* margin-left: 69%; */
+  /* margin-top: 60px; */
+  /* height:20px; */
+  /* width:20% */
 }
 .colDiv2{
   /* border-style: dashed; */
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-left: 69%;
+  margin-left: 66%;
   margin-top: 60px;
   /* height:20px; */
   width:20%
+}
+
+.tech{
+  display: none;
 }
   }
 

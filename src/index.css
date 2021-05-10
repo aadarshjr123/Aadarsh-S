@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 body {
   /* margin: 0; */
+  /* border-style: dashed; */
+  overflow: auto;
   font-family:"Libre Franklin";
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 

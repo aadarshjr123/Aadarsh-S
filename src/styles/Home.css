@@ -1,19 +1,20 @@
 .container {
     /* border-style: dashed; */
-    /* height: 150vh; */
+    overflow: auto;
+    justify-content: center; 
     }
     
     .image{
       /* border-style: dashed; */
       height: 10vh;
-      width: 20vh;
+      width: 90%;
       
       /* margin-left: 625px; */
     }
     .images{
       width: 250px;
       height: 250px;
-      border-style: dashed;
+      /* border-style: dashed; */
     
     }
     
@@ -23,18 +24,37 @@
       display: flex;
       justify-content: center;
       height: 10vh;
+      /* width: 50%; */
+    }
+    .resumeContainer{
+      /* border-style: dashed; */
+      width: 10%;
+      display: flex;
+      /* margin-left: 420px; */
+      justify-content:center;
+      align-items: center;
     }
     
-    
+    .resume{
+      /* border-style: dashed; */
+      text-decoration: none;     
+      color: #333; 
+    }
+    .resume:hover {
+      border-style: dashed;
+      color: #3C64F1;
+    }
     
     .logo{
       font-family: "Megrim";
       font-size: 50px; 
       height: 80px;
+      color: #333;
       /* border-style: dashed; */
       display: flex;
       justify-content: center;
       align-items: center;
+      text-decoration: none;
     }
 
     @media (max-width: 700px) { 
@@ -43,6 +63,11 @@
         /* height:  */
         overflow: auto;
         /* position:absolute */
+        }
+        .resumeContainer{
+          /* border-style: dashed; */
+          font-size: 13px;
+          width: 20%;
         }
     }
     

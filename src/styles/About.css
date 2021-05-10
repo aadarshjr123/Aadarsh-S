@@ -1,9 +1,11 @@
 .aboutDiv{
     display: flex;
     align-items: Right;
-    /* height: 90vh; */
+    height: inherit;
     flex-direction: column;
     /* border-style: dashed; */
+    overflow: auto;
+    
   }
   
 .aboutDiv1{
@@ -200,6 +202,11 @@
     /* border-style: dashed; */
   }
   
+  .Social{
+    /* border-style: dashed; */
+    max-width: 30px;
+    max-height: 30px;
+  }
   
   @media (max-width: 700px) {  
     .emoji {
@@ -211,6 +218,7 @@
   .aboutDiv{
     /* width: 100%; */
     /* border-style: dashed; */
+    
   }
   h1{
     display: flex;
@@ -240,6 +248,11 @@
   .fourth-about {
     font-size: 23px;
   }
+  .Social{
+    /* border-style: dashed; */
+    max-width: 23px;
+    max-height: 23px;
+  }
   .aboutDiv2{
     /* border-style: dashed; */
     height: 100%;
@@ -250,6 +263,10 @@
     align-items: center; */
     margin: 10%;
   }
+  .aboutDiv7{
+    /* display: none; */
+  }
+
   }
   
   
