@@ -1,7 +1,7 @@
 
 ## 🚨 Forking this repo (please read!)
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [https://aadarsh.vercel.app/] Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [aadarsh](https://aadarsh.vercel.app/) Thanks!
 
 
 # Getting Started with Create React App
