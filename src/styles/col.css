@@ -61,8 +61,9 @@
 }
 
 @media (max-width: 700px) {  
-  div.colDiv{
-    width: 105%;
+  .colDiv{
+    width: 100%;
+    /* border-style: dashed; */
   }
   .first-col{
       font-size: 22px;
@@ -74,9 +75,9 @@
 }
 .colDiv1{
   /* height: 300px; */
-  height: 350px;
-  width: 300px;
-  margin-left: 30px;
+  /* height: 350px; */
+  width: 76%;
+  margin: 50px;
   /* border-style: dashed; */
   /* display: flex; */
   /* justify-content: center; */
