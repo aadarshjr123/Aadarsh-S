@@ -4,7 +4,7 @@
 Yes, you can fork this repo. Please give me proper credit by linking back to [aadarsh](https://aadarsh.vercel.app/) Thanks!
 
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
